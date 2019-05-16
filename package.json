@@ -48,6 +48,10 @@
     "typescript": "3.4.3",
     "wait-on": "^3.2.0"
   },
+  "engines": {
+    "node": "10.14.1",
+    "npm": "6.4.1"
+  },
   "jest": {
     "moduleFileExtensions": [
       "js",
