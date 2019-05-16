@@ -6,7 +6,7 @@ import { CustomerModule } from './customer/customer.module';
 
 @Module({
   imports: [
-      MongooseModule.forRoot('mongodb://localhost/customer-app', { useNewUrlParser: true }),
+      MongooseModule.forRoot('mongodb+srv://admin:admin2019@cluster0-g1qcu.azure.mongodb.net/test?retryWrites=true' ||'mongodb://localhost/customer-app', { useNewUrlParser: true }),
       CustomerModule
   ],
   controllers: [AppController],
@@ -14,4 +14,3 @@ import { CustomerModule } from './customer/customer.module';
 })
 export class AppModule {}
 
-/*//127.0.0.1:27017/?gssapiServiceName=mongodb*/
