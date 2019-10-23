@@ -6,7 +6,7 @@ import { CustomerModule } from './customer/customer.module';
 
 @Module({
   imports: [
-      MongooseModule.forRoot('mongodb+srv://admin:admin2019@cluster0-g1qcu.azure.mongodb.net/test?retryWrites=true' ||'mongodb://localhost/customer-app', { useNewUrlParser: true }),
+      MongooseModule.forRoot('mongodb+srv://admin:admin2019@cluster0-4wse7.mongodb.net/test?retryWrites=true' || 'mongodb://localhost/customer-app', { useNewUrlParser: true }),
       CustomerModule
   ],
   controllers: [AppController],
